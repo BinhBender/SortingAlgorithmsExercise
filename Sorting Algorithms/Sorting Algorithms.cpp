@@ -2,12 +2,11 @@
 //
 #include "bubbleSort.h"
 #include <iostream>
-
+#include <array>
 int main()
 {
-	bubbleSort a;
+	bubbleSort a("sort.txt", "sorted.txt");
 
-	a.init();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
